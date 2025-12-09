@@ -1,19 +1,117 @@
-# Getting Started
-Install the dependencies and run the project
+# 🧩 Assembly: Endgame
+
+Assembly: Endgame is a React-based word guessing game inspired by Hangman.  
+Players must guess the hidden word within limited attempts to prevent the programming world from falling into Assembly.
+This project focuses on modern React practices, accessibility, and interactive UI feedback.
+
+---
+
+## 🚀 Features
+
+- Word guessing gameplay similar to Hangman
+- Limited attempts with visual progress using programming languages
+- On-screen keyboard with correct and incorrect highlights
+- Confetti animation on winning
+- Accessible game status updates using ARIA live regions
+- Clean and responsive UI
+
+---
+
+## 🛠 Tech Stack
+
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS
+- clsx
+- react-confetti
+
+---
+
+## 📁 Project Structure
+
+```text
+ASSEMBLY-ENDGAME/
+├── node_modules/
+├── App.jsx
+├── hint.md
+├── index.css
+├── index.html
+├── index.jsx
+├── languages.js
+├── utils.js
+├── words.js
+├── package.json
+├── package-lock.json
+├── vercel.json
+├── vite.config.js
+└── README.md
 ```
+
+---
+
+## 📦 Installation & Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/assembly-endgame.git
+cd assembly-endgame
+```
+
+2. Install dependencies:
+
+```bash
 npm install
-npm start
 ```
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+3. Run the development server:
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+```bash
+npm run dev
+```
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+4. Open your browser at:
 
-Happy Coding!
+```
+http://localhost:5173
+```
+
+---
+
+## 🏗 Build for Production
+
+```bash
+npm run build
+```
+
+The production-ready files will be generated in the `dist` directory.
+
+---
+
+## 🎮 How to Play
+
+- Guess letters using the on-screen keyboard
+- Each incorrect guess reduces the remaining attempts
+- Guess the full word before attempts run out
+- Win the game and see the celebration 🎉
+
+---
+
+## ✅ Learning Outcomes
+
+- React state management using hooks
+- Derived state and conditional rendering
+- Accessibility with ARIA roles and live regions
+- Vite-based project configuration
+- Component-driven UI design
+
+---
+
+## 📄 License
+
+This project is created for learning and personal portfolio use.
+
+---
+
+⭐ Feel free to star the repository if you find it useful.
